@@ -22,7 +22,6 @@ vector<int> twoSum(vector<int>& numbers, int target) {
 int main() {
 
   vector<int> arr1;
-  vector<int> arr2;
   cout << "Enter size of 1st array" << endl;
   int s1;
   cin >> s1;
