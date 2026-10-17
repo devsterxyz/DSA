@@ -1,4 +1,5 @@
 #include <iostream>
+#include<queue>
 using namespace std;
 
 class heap {
@@ -128,6 +129,21 @@ int main() {
     cout << arr[i] << " ";
   }
   cout << endl;
+
+  cout << "using priority queue here" << endl;
+
+  // max heap
+  priority_queue<int> pq;
+
+  pq.push(4);
+  pq.push(3);
+  pq.push(5);
+  pq.push(2);
+
+  cout << "element at top: " << pq.top() << endl;
+  pq.pop();
+  cout << "element at top: " << pq.top() << endl;
+  cout << "size: " << pq.size() << endl;
 
  return 0;
 }
